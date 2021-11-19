@@ -1,0 +1,25 @@
+//MARK: - 0/ Shared
+"yes"              = "Yes";
+"no"               = "No";
+"okay"             = "Okay";
+"cancel"           = "Cancel";
+"dismiss"          = "Dismiss";
+"logoutMsg"        = "Do you want to signout?";
+"logout"           = "Signout";
+"Error"            = "Error";
+"success"          = "Success";
+"Save"             = "Save";
+"Close"            = "close";
+"Unauthenticated"  = "The session has expired and you will be logged out of the application";
+
+//MARK: - 1/ Network & emptyView
+"EmptyData.title"   = "Empty data";
+"EmptyData.msg"     = "It seems that there are no data to be displayed";
+"noInternet.title"  = "No internet connection";
+"noInternet.msg"    = "Try these steps to reconnect to the Internet:";
+"noInternet.step1"  = "Reconnect to the cellular network";
+"noInternet.step2"  = "Reconnect to the Wi-Fi network";
+"noInternet.button" = "Reload page";
+
+//MARK: - 1/ Home
+"home.navTitle" = "Home";

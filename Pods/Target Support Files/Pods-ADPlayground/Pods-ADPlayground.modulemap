@@ -1,0 +1,6 @@
+framework module Pods_ADPlayground {
+  umbrella header "Pods-ADPlayground-umbrella.h"
+
+  export *
+  module * { export * }
+}

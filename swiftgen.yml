@@ -1,0 +1,21 @@
+strings:
+  inputs: ADPlayground/Base.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: ADPlayground/SwiftGen/Localization.swift
+xcassets:
+  inputs:
+   - ADPlayground/Main/Assets.xcassets
+   - ADPlayground/Main/AppColor.xcassets
+  outputs:
+    - templatePath: Templates/Image.stencil
+      output: ADPlayground/SwiftGen/Assets.swift
+    - templatePath: Templates/Colors.stencil
+      output: ADPlayground/SwiftGen/Colors.swift
+      
+fonts:
+  inputs:
+    - ADPlayground/Helper/Fonts
+  outputs:
+        - templatePath: Templates/Fonts.stencil
+          output: ADPlayground/SwiftGen/Fonts.swift
